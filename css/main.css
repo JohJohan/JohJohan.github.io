@@ -1071,7 +1071,7 @@ font-style: italic;
     font-size: 25px;
 }
 
-@media (min-width: 250px){
+@media (min-width: 50px){
 
 	.navbar-default .logo {
 	    color: #505050;
@@ -1261,7 +1261,12 @@ font-style: italic;
 		display: table-cell;
 	}
 }
-
+@media (max-width:1024px) {
+	body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+}
 @media (min-width: 1280px) {
 	.projecten .projects .hover {
 	    background-color: rgba(0,0,0,0.8);
