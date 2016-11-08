@@ -576,7 +576,7 @@ font-style: italic;
 .overmij .responsive:after {
     position: absolute;
     content: "";
-    background: url('../img/EduNedMobile.png') no-repeat;
+    background: url('../img/EduNedMobile.jpg') no-repeat;
     height: 100%;
 	width: 252px;
 	background-size: 252px;
