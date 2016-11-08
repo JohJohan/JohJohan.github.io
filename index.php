@@ -7,7 +7,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<title>JohanVlaar.nl</title>
+		<title>JohanVlaar.me</title>
 
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -73,7 +73,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="intro">
-					<h1 animation="fadeInDown" class="animate">Welkom op JohanVlaar.nl</h1>
+					<h1 animation="fadeInDown" class="animate">Welkom op JohanVlaar.me</h1>
 					<p animation="fadeInUp" class="animate">Improving the web, one website at the time.</p>
 				</div>
 			</div>
@@ -354,10 +354,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-						<p><i class="fa fa-copyright" aria-hidden="true"></i>2016 JohanVlaar.nl</p>
+						<p><i class="fa fa-copyright" aria-hidden="true"></i>2016 JohanVlaar.me</p>
 					</div>
 					<div class="col-md-4">
-						<p>Deze website is ontwikkeld door: <a href="/">JohanVlaar.nl</a></p>
+						<p>Deze website is ontwikkeld door: <a href="/">JohanVlaar.me</a></p>
 					</div>
 				</div>
 			</div>
