@@ -90,10 +90,6 @@ $(function($) {
 
 
 	$(document).ready(function() {
-        $('.navbar-collapse ul ul li a').on('click', function () {
-            $('html, body').animate({ scrollTop: $(this.hash).offset().top - 5 }, 1000);
-            return false;
-        });
         if($(this).scrollTop() > 100) {
             $('.scrollup').addClass('active');
         } else {
@@ -116,10 +112,6 @@ $(function($) {
         });
         // Start tooltip
         $('[data-toggle="tooltip"]').tooltip();
-
-        $('a[href^="#overmij"]').click(function (){
-            console.log("Hello from Johan");
-        });
 
         var $root = $('html, body');
         $('a[href*=#]').click(function() {
