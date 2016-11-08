@@ -139,7 +139,7 @@
 						</div>
 					</div>
 					<div class="block">
-						<p class="lead">Mijn naam is Johan Vlaar. Ik ben 22 jaar en volg de studie <strong>applicatieontwikkeling</strong> niveau <strong>4+</strong>. Ik zit nu in het laatste leerjaar. Naast mijn opleiding werk ik parttime als front-end webdeveloper bij <strong><a href="https://www.customwebstie.nl" target="_blank" rel="nofollow" title="Custom website">Custom Website</a></strong>, waar ik mij verder ontwikkel in het maken van websites en het onderhouden van klantcontacten.</p>
+						<p class="lead">Mijn naam is Johan Vlaar. Ik ben 22 jaar en volg de studie <strong>applicatieontwikkeling</strong> niveau <strong>4+</strong>. Ik zit nu in het laatste leerjaar. Naast mijn opleiding werk ik parttime als front-end webdeveloper bij <strong><a href="//www.customwebsite.nl" target="_blank" rel="nofollow" title="Custom website">Custom Website</a></strong>, waar ik mij verder ontwikkel in het maken van websites en het onderhouden van klantcontacten.</p>
 					</div>
 				</div>
 				<div class="col-md-offset-1 col-md-1 hidden-xs hidden-sm">
@@ -264,7 +264,7 @@
 
 						<p>Zoekt u een passende cursus voor uw bedrijf, of particulier (bij)lessen aan huis? Dan bent u bij EduNed aan het juiste adres. Wij bieden u "taal op maat" op verschillende gebieden.</p>
 					</blockquote>
-					<a href="https://www.eduned.com" class="btn btn-success btn-lg">Bekijk EduNed Online</a>
+					<a href="//www.eduned.com" class="btn btn-success btn-lg">Bekijk EduNed Online</a>
 				</div>
 			</div>
 		</div>
