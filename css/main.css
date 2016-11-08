@@ -193,7 +193,7 @@ margin-bottom: 25px;
 
 }
 .home .over_lay {
-    background: url('/img/background-2.png') repeat left top transparent;
+    background: url('img/background-2.png') repeat left top transparent;
 	top: 0px;
 	/*background-color: rgba(0, 0, 0, 0.5);*/
 }
@@ -487,7 +487,7 @@ font-style: italic;
 .overmij .large-window {
 	position: relative;
     height: 600px;
-    background: url('/img/johan.jpg') repeat-y;
+    background: url('img/johan.jpg') repeat-y;
     background-attachment: fixed;
     background-position: 55% -70%;
     border-radius: 50%;
@@ -617,7 +617,7 @@ font-style: italic;
 .overmij .responsive:after {
     position: absolute;
     content: "";
-    background: url('/img/test/EduNedMobile.png') no-repeat;
+    background: url('img/test/EduNedMobile.png') no-repeat;
     height: 100%;
 	width: 252px;
 	background-size: 252px;
