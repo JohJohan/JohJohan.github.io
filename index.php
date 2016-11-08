@@ -350,7 +350,6 @@
 
 				</div>
 		</section>
-
 		<section id="copyright" class="copyright section">
 			<div class="container">
 				<div class="row">
