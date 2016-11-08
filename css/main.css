@@ -340,6 +340,7 @@ font-style: italic;
 	background: rgba(255,255,255,.1);
 	-webkit-transition: all .3s;
 	        transition: all .3s;
+    transform: translate(-50%, 0%);
 }
 .home .fa {
 	width: 56px;

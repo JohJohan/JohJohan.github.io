@@ -27,7 +27,7 @@
 		<![endif]-->
 
 		<link rel="shortcut icon" href="favicon.png">
-		<link type="text/plain" rel="author" href="/humans.txt" />
+        <link type="text/plain" rel="author" href="humans.txt" />
 	</head>
 	<body>
 
