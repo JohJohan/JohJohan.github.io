@@ -316,8 +316,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-10 col-lg-offset-1">
-							<form id="contact-form" class="row" method="POST" action="contact.php">
-									<div class="col-sm-6 col-md-6">
+							<form id="contact-form" class="row"  method="POST" action="http://formspree.io/johan.vlaar.1994@gmail.com">
+								<div class="col-sm-6 col-md-6">
 										<div class="form-group bottom">
 											<label class="control-label" for="name">uw naam:</label>
 											<input name="name" class="form-control" id="name"  required minlength="4" placeholder="naam *">
@@ -344,7 +344,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<h2 class="bottom">Laten we in contact komen.</h2>
-							<p>Of stuur een mail naar <a href="mailto:johan.vlaar1994@gmail.com?SUBJECT=Contact johanvlaar.me">johan.vlaar1994@gmail.com</a>.</p>
+							<p>Of stuur een mail naar <a href="mailto:johan.vlaar1994@gmail.com">johan.vlaar1994@gmail.com</a>.</p>
 						</div>
 					</div>
 
