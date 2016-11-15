@@ -1,3 +1,7 @@
+body {
+	background-color: inherit;
+	opacity: 1;
+}
 .section {
 	padding: 50px 0;
 }
