@@ -154,63 +154,11 @@ $(function($) {
         });
 
 
-       var $grid = $('#grid');
-
-       $grid.shuffle({
-           itemSelector: '.item' // the selector for the items in the grid
-       });
-       $('#filter a.active').click();
-       $('#filter a').click(function (e) {
-           e.preventDefault();
-
-           // set active class
-           $('#filter a').removeClass('active');
-           $(this).addClass('active');
-
-           // get group name from clicked item
-           var groupName = $(this).attr('data-group');
-
-           // reshuffle grid
-           $grid.shuffle('shuffle', groupName );
-       });
-
-
        $('.form-toggle-icon').click(function(){
            event.preventDefault();
            $(this).fadeOut().remove();
        });
 
-
-        $('.owl-carousel').owlCarousel({
-            lazyLoad:       true,
-            center:         true,
-            loop:           true,
-            autoplay:       true,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: false,
-            autoWidth:      true,
-            autoplaySpeed:  5000,
-            touchDrag:      true,
-            mouseDrag:      true,
-            pullDrag:       true,
-            // freeDrag:       true,
-            // nav:            true,
-            // navText:        '[&#x27;next&#x27;,&#x27;prev&#x27;]',
-            margin:         200,
-            // animateOut:     'slideOutDown',
-            // animateIn:      'flipInX',
-            responsive:     {
-                320:{
-                    items:2
-                },
-                            600:{
-                                items:4
-                            },
-                            1280:{
-                                items:5
-                                }
-                            }
-        });
 
     });
 
@@ -243,25 +191,15 @@ $(function($) {
         if(wScroll > ($('.pie-charts').offset().top - windowH + 0 )){
             pie_chart();
         }
-    //     if($(this).scrollTop() + windowH  == $(document).height() ) {
-    //       $('.bottom').addClass('fadeInUp').delay(1).addClass('animated');
-    //    }
+
         if($('body').height() <= $(window).height() + $(window).scrollTop() +  150) {
           $('.bottom').addClass('fadeInUp').delay(1).addClass('animated');
         }
-        // if($(window).scrollTop() + $(window).height() > $(document).height() - 10) {
-        //     if($('.form-toggle-icon').hasClass('form-open')){
-        //         // $('.form-toggle-icon').removeClass('form-open');
-        //     } else {
-        //         $('.form-toggle-icon').addClass('form-open');
-        //     }
-        // }
+
 
         // Large window
         if(wScroll > largeH - windowH){
-            // console.log(largeH);
             largeH = largeH - 75;
-            // console.log(largeH);
             $('.large-window').css({'background-position': '55% ' + (windowH - largeH  +'px')});
 
             var opacity = (wScroll - largeH + 400) / (wScroll / 3);
