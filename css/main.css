@@ -335,11 +335,6 @@ font-style: italic;
 	border-color: rgba(255,255,255,1);
 	box-shadow: 0px 0px 10px rgba(255,255,255,0.8);
 }
-.home .scroll-down:hover .fa {
-	color: rgba(255,255,255,1);
-		-webkit-animation-iteration-count: inherit;
-		animation-iteration-count: inherit;
-}
 
 @-webkit-keyframes movedown {
 	0%   {margin-top: 0px; visibility: visible; opacity: 1; filter: alpha(opacity=100);}
@@ -1123,7 +1118,7 @@ font-style: italic;
 	}
 
 	.toolbox {
-		margin-bottom: 450px;
+		margin-bottom: 415px;
 	}
 	.cta .btn {
 		margin-top: 0px;
