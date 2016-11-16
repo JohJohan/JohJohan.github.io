@@ -1009,6 +1009,10 @@ font-style: italic;
 	    color: #505050;
 	    border: 1px solid #505050;
 	}
+	.navbar-default .logo:hover {
+		color: #505050;
+		border: 1px solid #505050;
+	}
 	.scrollup {
 		bottom: 5%;
 	}

@@ -137,7 +137,7 @@ $(function($) {
         if (screen.width > 768) {
             var ipadCss = document.createElement("script");
             ipadCss.type = "text/javascript";
-            ipadCss.src = "js/radomposition.js";
+            ipadCss.src = "../js/radomposition.js";
             document.body.appendChild(ipadCss);
         }
 
