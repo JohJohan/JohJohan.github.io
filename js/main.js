@@ -192,10 +192,6 @@ $(function($) {
             pie_chart();
         }
 
-        if($('body').height() <= $(window).height() + $(window).scrollTop() +  150) {
-          $('.bottom').addClass('fadeInUp').delay(1).addClass('animated');
-        }
-
 
         // Large window
         if(wScroll > largeH - windowH){

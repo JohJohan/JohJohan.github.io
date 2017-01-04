@@ -19,8 +19,7 @@ html {
     vertical-align: middle;
     float: none;
 }
-.animate,
-.bottom {
+.animate {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	visibility: hidden;
@@ -230,10 +229,6 @@ font-style: italic;
 	text-align: center;
 }
 
-.home .bottom {
-	position: absolute;
-	bottom: 0px;
-}
 .home .projects {
 	position: absolute;
 	right: -70px;
