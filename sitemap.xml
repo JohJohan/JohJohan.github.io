@@ -6,24 +6,21 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-    <loc>http://johanvlaar.me/</loc>
-    <lastmod>2017-02-23</lastmod>
+    <loc>http://johjohan.github.io/</loc>
+    <lastmod>2020-04-25</lastmod>
     <changefreq>monthly</changefreq>
-
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>http://johanvlaar.me/nl/</loc>
-    <lastmod>2017-02-23</lastmod>
+    <loc>http://johjohan.github.io/nl/</loc>
+    <lastmod>2020-04-25</lastmod>
     <changefreq>monthly</changefreq>
-
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>http://johanvlaar.me/en/</loc>
-    <lastmod>2017-02-23</lastmod>
+    <loc>http://johjohan.github.io/en/</loc>
+    <lastmod>2020-04-25</lastmod>
     <changefreq>monthly</changefreq>
-
     <priority>0.5</priority>
 </url>
 </urlset>
