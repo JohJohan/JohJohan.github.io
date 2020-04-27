@@ -49,9 +49,9 @@ $(function($) {
             option.items.each( function() {
               var element = $(this),
 
-                  AnimationClass = element.attr('animation'),
-                  AnimationDuration = element.attr('animation-duration'),
-                  AnimationDelay = element.attr('animation-delay');
+                  AnimationClass = element.attr('data-animation'),
+                  AnimationDuration = element.attr('data-animation-duration'),
+                  AnimationDelay = element.attr('data-animation-delay');
 
 
                   element.css({

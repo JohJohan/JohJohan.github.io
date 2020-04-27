@@ -46,7 +46,7 @@
 	</head>
 	<body>
 
-	<header id="header" class="navbar navbar-default navbar-fixed-top" role="banner">
+	<header id="header" class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -55,9 +55,9 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="/#home" class="logo">Johan Vlaar</a>
+			<a href="#home" class="logo">Johan Vlaar</a>
 			</div>
-			<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+			<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right">
 				<ul class="nav navbar-nav">
 					<li>
 						<a href="#home">Home</a>
@@ -89,14 +89,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="intro">
-					<h1 animation="fadeInDown" class="animate">Welcome to johjohan.github.io</h1>
-					<p animation="fadeInUp" class="animate">Improving the web, one website at the time.</p>
+					<h1 data-animation="fadeInDown" class="animate">Welcome to johjohan.github.io</h1>
+					<p data-animation="fadeInUp" class="animate">Improving the web, one website at the time.</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="parallax animate" animation="fadeIn" animation-delay="0.6s">
+				<div class="parallax animate" data-animation="fadeIn" data-animation-delay="0.6s">
 					<span>Web development</span>
 					<span>PHP</span>
 					<span>Symfony 4/5</span>
@@ -116,7 +116,8 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<div class=" alert-warning" role="alert"> <strong>Look out!</strong> I looks like JavaScript is off, there for some functions will not work, please enable JavaScript <a href="https://www.google.nl/search?q=how+do+i+enable+JavaScript&oq=how+do+i+enable+JavaScript&aqs=chrome..69i57.9439j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow" target="_blank">How do i do that?</a></div>
+						<h2>JavaScript is turned off</h2>
+						<div class="alert alert-warning" role="alert"> <strong>Look out!</strong> I looks like JavaScript is off, there for some functions will not work, please enable JavaScript <a href="https://www.google.nl/search?q=how+do+i+enable+JavaScript&oq=how+do+i+enable+JavaScript&aqs=chrome..69i57.9439j0j7&sourceid=chrome&ie=UTF-8" rel="nofollow" target="_blank">How do i do that?</a></div>
 					</div>
 				</div>
 			</div>
@@ -125,7 +126,6 @@
 
 	<section id="aboutMe" class="section aboutMe">
 		<div class="container">
-
 			<div class="row">
 				<div class="col-md-12">
 					<div class="intro_section">
@@ -136,10 +136,10 @@
 			<div class="row">
 				<div class="col-md-1 hidden-xs hidden-sm">
 					<div class="fa-icon">
-						<i animation="fadeInLeft" class="animate fa fa-code fa-fw"></i>
-						<i animation="fadeInLeft" class="animate fa fa-code-fork fa-fw"></i>
-						<i animation="fadeInLeft" class="animate fa fa-file-code-o fa-fw"></i>
-						<i animation="fadeInLeft" class="animate fa fa-globe fa-fw"></i>
+						<i data-animation="fadeInLeft" class="animate fa fa-code fa-fw"></i>
+						<i data-animation="fadeInLeft" class="animate fa fa-code-fork fa-fw"></i>
+						<i data-animation="fadeInLeft" class="animate fa fa-file-code-o fa-fw"></i>
+						<i data-animation="fadeInLeft" class="animate fa fa-globe fa-fw"></i>
 					</div>
 				</div>
 				<div class="col-sm-offset-3 col-sm-6 col-md-offset-2 col-md-6">
@@ -157,10 +157,10 @@
 				</div>
 				<div class="col-md-offset-1 col-md-1 hidden-xs hidden-sm">
 					<div class="fa-icon">
-						<i animation="fadeInRight" class="animate fa fa-chrome fa-fw"></i>
-						<i animation="fadeInRight" class="animate fa fa-safari fa-fw"></i>
-						<i animation="fadeInRight" class="animate fa fa-edge fa-fw"></i>
-						<i animation="fadeInRight" class="animate fa fa-firefox fa-fw"></i>
+						<i data-animation="fadeInRight" class="animate fa fa-chrome fa-fw"></i>
+						<i data-animation="fadeInRight" class="animate fa fa-safari fa-fw"></i>
+						<i data-animation="fadeInRight" class="animate fa fa-edge fa-fw"></i>
+						<i data-animation="fadeInRight" class="animate fa fa-firefox fa-fw"></i>
 					</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@
 				<div class="col-md-6">
 					<div class="row pie-charts">
 						<div class="col-xs-6 col-sm-4">
-							<div class="pie-chart-container animate" animation="fadeInLeft" >
+							<div class="pie-chart-container animate" data-animation="fadeInLeft" >
 								<div class="pie-chart default" data-percent="90" data-size="140" data-line-width="3" data-track-color="transparent" data-bar-color="#0094e0">
 									<div class="pie-chart-percent">
 										<h2><span class="value">90</span>%</h2>
@@ -182,7 +182,7 @@
 
 						</div>
 						<div class="col-xs-6 col-sm-4">
-							<div class="pie-chart-container animate" animation="fadeInLeft">
+							<div class="pie-chart-container animate" data-animation="fadeInLeft">
 								<div class="pie-chart default" data-percent="85" data-size="140" data-line-width="3" data-track-color="transparent" data-bar-color="#0094e0">
 									<div class="pie-chart-percent">
 										<h2><span class="value">85</span>%</h2>
@@ -195,7 +195,7 @@
 
 						</div>
 						<div class="col-xs-6 col-sm-4">
-							<div class="pie-chart-container animate" animation="fadeInLeft">
+							<div class="pie-chart-container animate" data-animation="fadeInLeft">
 								<div class="pie-chart default" data-percent="80" data-size="140" data-line-width="3" data-track-color="transparent" data-bar-color="#0094e0">
 									<div class="pie-chart-percent">
 										<h2><span class="value">80</span>%</h2>
@@ -208,7 +208,7 @@
 
 						</div>
 						<div class="col-xs-6 col-sm-4">
-							<div class="pie-chart-container animate" animation="fadeInLeft">
+							<div class="pie-chart-container animate" data-animation="fadeInLeft">
 								<div class="pie-chart default" data-percent="80" data-size="140" data-line-width="3" data-track-color="transparent" data-bar-color="#0094e0">
 									<div class="pie-chart-percent">
 										<h2><span class="value">80</span>%</h2>
@@ -221,7 +221,7 @@
 
 						</div>
 						<div class="col-xs-6 col-sm-4">
-							<div class="pie-chart-container animate" animation="fadeInLeft">
+							<div class="pie-chart-container animate" data-animation="fadeInLeft">
 								<div class="pie-chart default" data-percent="75" data-size="140" data-line-width="3" data-track-color="transparent" data-bar-color="#0094e0">
 									<div class="pie-chart-percent">
 										<h2><span class="value">75</span>%</h2>
@@ -233,7 +233,7 @@
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-4">
-							<div class="pie-chart-container animate" animation="fadeInLeft">
+							<div class="pie-chart-container animate" data-animation="fadeInLeft">
 								<div class="pie-chart default" data-percent="75" data-size="140" data-line-width="3" data-track-color="transparent" data-bar-color="#0094e0">
 									<div class="pie-chart-percent">
 										<h2><span class="value">70</span>%</h2>
@@ -249,7 +249,7 @@
 
 				</div>
 				<div class="col-md-6">
-					<div animation="fadeInRight" class="animate responsive" >
+					<div data-animation="fadeInRight" class="animate responsive" >
 						<img src="../img/front1.png" alt="Website impression EduNed">
 					</div>
 				</div>
@@ -269,9 +269,9 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 vcenter">
-					<img src="../img/EduNedSmall.jpg" alt="EduNed | johjohan.github.io" class="img-responsive animate"  animation="fadeInLeft" animation-delay="0.6s"/>
+					<img src="../img/EduNedSmall.jpg" alt="EduNed | johjohan.github.io" class="img-responsive animate"  data-animation="fadeInLeft" data-animation-delay="0.6s"/>
 				</div><!--
-    			--><div class="col-md-6 vcenter animate"  animation="fadeInRight">
+    			--><div class="col-md-6 vcenter animate"  data-animation="fadeInRight">
 					<h3>EduNed</h3>
 					<blockquote>
 						<p>EduNed is een taalbureau dat u begeleidt en instrueert op het gebied van de Nederlandse taal. In de regio Bergen op Zoom, Steenbergen en Tholen.</p>
@@ -307,18 +307,18 @@
 			<div class="row">
 				<div class="col-xs-6 text-center">
 					<ul>
-						<li class="animate" animation="fadeInLeft">HTML 5</li>
-						<li class="animate" animation="fadeInLeft">CSS 3</li>
-						<li class="animate" animation="fadeInLeft">PHP</li>
-						<li class="animate" animation="fadeInLeft">JavaScript</li>
+						<li class="animate" data-animation="fadeInLeft">HTML 5</li>
+						<li class="animate" data-animation="fadeInLeft">CSS 3</li>
+						<li class="animate" data-animation="fadeInLeft">PHP</li>
+						<li class="animate" data-animation="fadeInLeft">JavaScript</li>
 					</ul>
 				</div>
 				<div class="col-xs-6 text-center">
 					<ul>
-						<li class="animate" animation="fadeInRight">Jquery</li>
-						<li class="animate" animation="fadeInRight">Bootstrap</li>
-						<li class="animate" animation="fadeInRight">Symfony</li>
-						<li class="animate" animation="fadeInRight">Laravel</li>
+						<li class="animate" data-animation="fadeInRight">Jquery</li>
+						<li class="animate" data-animation="fadeInRight">Bootstrap</li>
+						<li class="animate" data-animation="fadeInRight">Symfony</li>
+						<li class="animate" data-animation="fadeInRight">Laravel</li>
 					</ul>
 				</div>
 			</div>
@@ -340,7 +340,7 @@
 				</div>
 		</section>
 
-		<section id="copyright" class="copyright section">
+		<div id="copyright" class="copyright">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
@@ -351,7 +351,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	</div>
 
 	<a href="" class="fixed_item scrollup" title="To top">
