@@ -97,9 +97,9 @@ $(function($) {
         }
 
         $('.btn-cta').click(function(){
-            $('.lees-meer').addClass('active');
+            $('.read-more').addClass('active');
             $('html,body').animate({
-            scrollTop: $('.lees-meer').offset().top},
+            scrollTop: $('.read-more').offset().top},
             700);
             $(this).fadeOut(300).delay(300).remove();
 
